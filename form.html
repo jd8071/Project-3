@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- 
+    Author: Jen Dahl
+    File Name: form.html
+    Date: November 16, 2024
+-->
+<html lang="en">
+    <head>
+        <title>Women's Rights</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+    <body>
+
+        <div id="box">
+
+            <!-- -->
+            <header>
+                <h1>Women's Rights</h1>
+            </header>
+
+            <!-- -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="info.html">Information</a></li>
+                    <li><a href="images.html">Images</a></li>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="form.html">Want to learn more?</a></li>
+                </ul>
+            </nav>
+
+            <!-- -->
+            <main>
+
+                <div id="form">
+
+                    <h2>If you're interested in learning more about Women's Rights, please fill out the form below.</h2>
+
+                    <form class="form-grid"><!-- Start Form -->
+
+                        <fieldset>
+                            <legend>Contact Information</legend>
+                            <label for="fName">First Name:</label>
+                            <input type="text" name="fName" id="fName" required>
+
+                            <label for="lName">Last Initial:</label>
+                            <input type="text" name="lName" id="lName" required>
+
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" required>
+
+                            <label for="phone">Phone:</label>
+                            <input type="tel" name="phone" id="phone">
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>What would you like to know?</legend>
+                            <label for="timeline"><input type="checkbox" name="interest" id="timeline" value="Timeline of Important Dates">Timeline of Important Dates</label>
+                            <label for="events"><input type="checkbox" name="interest" id="events" value="More Events">More Events</label>
+                            <label for="people"><input type="checkbox" name="interest" id="people" value="People Involved">People Involved</label>
+                            <label for="other"><input type="textbox" name="interest" id="other" value="">Other (Please Explain)</label>
+                        </fieldset>
+                        
+                        <input type="submit" id="submit" value="Submit" class="btn">
+
+                        <input type="reset" id="reset" value="Reset" class="btn">
+
+                    </form>
+                </div>
+
+            </main>
+
+            <!-- -->
+            <footer>
+                <p>Intended for educational purposes only.</p>
+            </footer>
+
+        </div>
+
+    </body>
+</html>
